@@ -1,0 +1,38 @@
+*{
+    font-family: cursive;
+}
+body{
+    align-items: center;
+    background-color: lightgray;
+}
+
+.container{
+    display: flex;
+    width: 47%;
+    margin:auto;
+    margin-top: 20rem;
+}
+
+.key{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-size: 19px;
+    width: 40%;
+    height: 5rem;
+    margin: auto;
+    padding: 10px 2px;
+    text-align: center;
+}
+
+
+.heading{
+    background-color: #00000059;
+    border: 2px solid black;
+    border-radius: 2px;
+    height: 14rem;
+}
+.newKey{
+    height: 5rem;
+    margin: 1rem;
+}
